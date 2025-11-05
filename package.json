@@ -1,6 +1,6 @@
 {
   "name": "@druxax/lint",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "🚀 Ultimate ESLint Configuration: JavaScript & TypeScript Linting for React, JSX, TSX. Pre-configured with Prettier, React Hooks, and TypeScript support. ESLint 9 Flat Config ready!",
   "keywords": [
     "eslint",

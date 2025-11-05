@@ -78,6 +78,27 @@ This means:
 - **JSX configuration** includes all JavaScript recommended rules plus React-specific rules
 - **TSX configuration** includes all TypeScript recommended rules plus React-specific rules
 
+## Prettier Configuration
+
+To customize Prettier formatting, create a `.prettierrc` file in your project root. The package includes a `.prettierrc.example` file with recommended settings:
+
+```json
+{
+  "semi": true,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "printWidth": 80
+}
+```
+
+You can copy this example and modify it according to your preferences:
+
+```bash
+cp node_modules/@druxax/lint/.prettierrc.example .prettierrc
+```
+
+Or create your own `.prettierrc` file with custom settings. The ESLint configuration will automatically respect your Prettier settings.
+
 ## Available Exports
 
 | Export Path | Description |
