@@ -1,0 +1,41 @@
+{
+  "name": "@druxax/lint",
+  "version": "1.0.6",
+  "author": "Andrey Smirnov",
+  "peerDependencies": {
+    "@eslint/js": "^9.0.0",
+    "eslint": "^9.0.0",
+    "eslint-config-prettier": "^10.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-react": "^7.0.0",
+    "eslint-plugin-react-hooks": "^7.0.0",
+    "globals": "^16.0.0",
+    "prettier": "^3.0.0",
+    "typescript-eslint": "^8.0.0"
+  },
+  "exports": {
+    ".": "./src/index.js",
+    "./jsx": "./src/jsx.js",
+    "./tsx": "./src/tsx.js",
+    "./js": "./src/js.js",
+    "./ts": "./src/ts.js",
+    "./druxax": "./src/customRules/druxax/index.js",
+    "./druxax/jsx": "./src/customRules/druxax/jsx.js",
+    "./druxax/tsx": "./src/customRules/druxax/tsx.js"
+  },
+  "description": "Check js, ts, jsx, tsx files with recommended and custom rules",
+  "keywords": [
+    "eslint",
+    "recommended",
+    "rules",
+    "js",
+    "ts",
+    "jsx",
+    "tsx"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "module"
+}
