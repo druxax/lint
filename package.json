@@ -1,7 +1,47 @@
 {
   "name": "@druxax/lint",
   "version": "1.0.6",
+  "description": "🚀 Ultimate ESLint Configuration: JavaScript & TypeScript Linting for React, JSX, TSX. Pre-configured with Prettier, React Hooks, and TypeScript support. ESLint 9 Flat Config ready!",
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "javascript",
+    "typescript",
+    "jsx",
+    "tsx",
+    "react",
+    "reactjs",
+    "linting",
+    "code-quality",
+    "prettier",
+    "eslint-config-prettier",
+    "typescript-eslint",
+    "react-hooks",
+    "eslint-plugin-react",
+    "code-style",
+    "static-analysis",
+    "eslint-flat-config",
+    "eslint-v9"
+  ],
   "author": "Andrey Smirnov",
+  "license": "MIT",
+  "type": "module",
+  "main": "./src/index.js",
+  "files": [
+    "src/**/*.js",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/druxax/lint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/druxax/lint/issues"
+  },
+  "homepage": "https://github.com/druxax/lint#readme",
   "peerDependencies": {
     "@eslint/js": "^9.0.0",
     "eslint": "^9.0.0",
@@ -23,19 +63,10 @@
     "./druxax/jsx": "./src/customRules/druxax/jsx.js",
     "./druxax/tsx": "./src/customRules/druxax/tsx.js"
   },
-  "description": "Check js, ts, jsx, tsx files with recommended and custom rules",
-  "keywords": [
-    "eslint",
-    "recommended",
-    "rules",
-    "js",
-    "ts",
-    "jsx",
-    "tsx"
-  ],
-  "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
-  "type": "module"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
